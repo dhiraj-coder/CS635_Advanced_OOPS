@@ -1,0 +1,25 @@
+
+public class PriorityQueueImplementation {
+
+	public static void main(String[] args) {
+		PriorityQueue queue = new PriorityQueue();
+//		for(int i=0;i<10;i++) {
+//			Student newStudent
+//		}
+		try {
+		Student stud = new Student("Dhiraj","R822141288","dspatil@sdsu.edu",3.56,21);
+		Student stud1 = new Student("Dhiraj1","R822141289","dspatil1@sdsu.edu",3.8,18);
+		Student stud2 = new Student("Dhiraj2","R822141299","dspatil2@sdsu.edu",4,15);
+		queue.enqueue(stud);
+		queue.enqueue(stud1);
+		queue.enqueue(stud2);
+		queue.printQueue();
+		}catch(Exception e) {
+		}
+		queue.dequeue();
+		queue.dequeue();
+		queue.dequeue();
+		queue.printQueue();
+	}
+
+}

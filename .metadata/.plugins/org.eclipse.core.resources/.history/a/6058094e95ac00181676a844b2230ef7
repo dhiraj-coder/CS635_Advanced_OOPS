@@ -1,0 +1,42 @@
+
+public class PriorityQueue {
+	private int size;
+	private Student head;
+	private Student tail;
+	
+	//constructor to create priority queue with default size of 10
+	public PriorityQueue() {
+		this(10);
+	}
+	
+	//constructor to create priority queue with user specified size
+	public PriorityQueue(int size) {
+		this.size = size;
+		this.head=null;
+		this.tail=null;
+	}
+	
+	void enqueue(Student newStudent) {
+		
+	}
+	
+	void dequeue() {
+		
+	}
+	
+	int size() {
+		return size;
+	}
+	
+	void printQueue() {
+		
+	}
+	
+	int setPriority(Student newStudent) {
+		int priority=0;
+		//logic to decide priority of object
+		
+		return priority;
+		
+	}
+}

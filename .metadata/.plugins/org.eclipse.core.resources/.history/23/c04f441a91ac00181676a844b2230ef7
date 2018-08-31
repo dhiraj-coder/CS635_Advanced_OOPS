@@ -1,0 +1,18 @@
+
+public class Student {
+	private String name;
+	private String redid;
+	private String email;
+	private double GPA;
+	private int numberOfUnits;
+	
+	public Student(String name, String redid, String email, double GPA, int numberOfUnits) {
+		this.name=name;
+		this.redid=redid;
+		this.email=email;
+		this.GPA=GPA;
+		this.numberOfUnits=numberOfUnits;
+	}
+	
+	
+}

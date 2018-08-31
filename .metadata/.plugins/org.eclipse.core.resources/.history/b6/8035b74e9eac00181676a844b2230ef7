@@ -1,0 +1,60 @@
+
+public class Student {
+	private String name;
+	private String redid;
+	private String email;
+	private double GPA;
+	private int numberOfUnits;
+	
+	public Student(String name, String redid, String email, double GPA, int numberOfUnits) {
+		this.name=name;
+		this.redid=redid;
+		this.email=email;
+		if(GPA>=0 && GPA<=4) {
+		this.GPA=GPA;
+		}else { throw GPAOutOfRangeException}
+		this.numberOfUnits=numberOfUnits;
+	}
+	
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getRedid() {
+		return redid;
+	}
+
+	public void setRedid(String redid) {
+		this.redid = redid;
+	}
+
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
+	public double getGPA() {
+		return GPA;
+	}
+
+	public void setGPA(double gPA) {
+		GPA = gPA;
+	}
+
+	public int getNumberOfUnits() {
+		return numberOfUnits;
+	}
+
+	public void setNumberOfUnits(int numberOfUnits) {
+		this.numberOfUnits = numberOfUnits;
+	}
+
+	
+}

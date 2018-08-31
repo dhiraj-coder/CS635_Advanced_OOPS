@@ -1,0 +1,5 @@
+
+public class GPAOutOfRangeException extends Exception{
+
+	private static final long id = 124354325443243L;
+}
